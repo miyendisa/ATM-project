@@ -34,7 +34,6 @@ public class ATMProject {
                             if (withdraw <= balance) {
                                 balance -= withdraw;
                                 System.out.println("Please collect your money.");
-                                break;
                             } else {
                                 System.out.println("Insufficient Balance.\n" +
                                         "Check your balance and try a different amount.");
